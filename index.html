@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <!--compatibilidade com os diversos tipos de aparelhos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Fontes utilizadas no projeto-->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--link para demonstar que onde será feito meu CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Rocket.sect</title>
+</head>
+<body>
+<!--marco como page para demonstar ao CSS onde eu quero modificar e para montar meu conteúdo dentro dessa TAG-->
+    <div class="page">
+
+        <header>
+
+            <img src="./images/logo.svg" alt="Logomarca">
+
+            <nav>
+                <!--Lista não ordenada, seguido de um NAV (navegação) e o Li de lista.-->
+                <ul>
+                    <li> <a href="#" target="_blank"> Início </a></li>
+                    <li> <a href="#" target="_blank"> Serviços </a></li>
+                    <li> <a href="#" target="_blank"> Contato </a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+        <main> <!--main ou também head-->
+
+            <img src="images/img.png" alt="mulher com blusa verde e calça cinza ao lado de um notebook aberto com um cadeado">
+<!--coloco section para demonstar no CSS qual tag desejo usar, seja h1, h2, h3, P, etc.-->
+            <section class="text">
+
+                <h1> Seus dados estão <span>protegidos</span>?</h1>
+
+                <p>
+                    A informação é fundamental e de<strong>extrema importância</strong> para qualquer <br> empresa. 
+                    <br/> <br/>
+                    Aqui vai um <strong>texto</strong> como se fosse uma empresa de <span>segurança da informação</span> 
+                    apresentando o seu produto e com o texto todo estilizado.    
+                </p>
+
+            </section>
+
+        </main>
+
+        <!--rodapé da minha página-->
+        <footer>
+            <!--imagem que já está fora até mesmo do rodapé-->
+    <img id="cadeado"
+    src="./images/padlock-decoration.svg" alt="Cadeado na parte inferior esquerda">
+            <!--
+                id=line será a linha em cima do rodapé
+            -->
+
+            <div id="line"></div>
+
+            para mais informações nos siga no instagram <a href="#" target="_blank"> @rockectsect </a>
+
+        </footer>
+        
+    </div>
+
+</body>
+</html>
